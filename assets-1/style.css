@@ -1,0 +1,49 @@
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    #container {
+        padding: 10px
+    }
+    
+    .d-input {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    .d-input input {
+        width: 300px;
+        height: 30px;
+        margin-top: 10px;
+        border: none;
+        border: 2px solid #8a8989;
+        padding: 2px 5px;
+        border-radius: 10px;
+    }
+    
+    .d-button {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    
+    .d-button button {
+        margin-left: 10px;
+        padding: 10px;
+        background-color: rgb(122, 197, 122);
+        border: none;
+        border: 2px solid #8a8989;
+        border-radius: 10px;
+    }
+    
+    .br {
+        width: 98%;
+        height: 2px;
+        background-color: black;
+        border: none;
+        border-radius: 10px;
+        margin: 10px;
+    }
